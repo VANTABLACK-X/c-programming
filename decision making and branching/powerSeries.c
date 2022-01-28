@@ -1,0 +1,1 @@
+#define accurancy 0.0001
