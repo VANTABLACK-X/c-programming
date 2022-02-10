@@ -16,8 +16,8 @@ int main()
         if(n==0)
         p=1;
         else
-        p=p*2;
-        q=0.1/(double)p;
+        p=p*2;           /* 2 power  n*/
+        q=0.1/(double)p; /* 2 power -n*/
         printf("%10d %10d %20.12lf\n",p,n,q);
     }
     printf("_____________________________________________________\n");
