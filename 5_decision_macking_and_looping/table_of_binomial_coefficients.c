@@ -15,6 +15,8 @@ int main()
     do
     {
         printf("%2d",m);
+        x=0;
+        binom=1;
         while (x<=m)
         {
             if (m==0||x==0)
@@ -23,6 +25,7 @@ int main()
             }
             else
             {
+                binom=binom*(m-x+1)/x;
                 printf("%4d",binom);
             }
             x=x+1;
