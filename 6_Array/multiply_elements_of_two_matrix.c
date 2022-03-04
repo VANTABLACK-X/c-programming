@@ -29,16 +29,16 @@ int main()
         printf("\n");
         for ( j = 0; j < b; j++)
         {
-            printf("%d",a1[i][j]);
+            printf("%4d",a1[i][j]);
         }
     }
-    printf("\n");
+
     for ( i = 0; i < a; i++)
     {
         printf("\n");
         for ( j = 0; j < b; j++)
         {
-            printf("%d",a2[i][j]);
+            printf("%4d",a2[i][j]);
         }
     }
     printf("\n\nproduct of the two matrixes is\n");
@@ -58,7 +58,7 @@ int main()
         printf("\n");
         for ( j = 0; j < b; j++)
         {
-            printf("%d",c[i][j]);
+            printf("%4d",c[i][j]);
         }
     }
     return 0;
