@@ -51,11 +51,11 @@ void main()
         }
     }
     /*product wise monthly value of production and sales*/
-    for ( j = 1; j <=4; j++)
+    for ( j = 1; j <=5; j++)
     {
         mproduct[j]=0;
         sproduct[j]=0;
-        for ( i = 1; i <=5; i++)
+        for ( i = 1; i <=4; i++)
         {
             mproduct[j]+=mvalue[i][j];
             sproduct[j]+=svalue[i][j];
@@ -127,7 +127,7 @@ void main()
             printf("                   ______________  ________   \n");
             for ( j = 1; j <=5; j++)
             {
-            printf("\nweek(%d)             %7d    %7d",j,mproduct[j],sproduct[j]);
+                printf("\nweek(%d)             %7d    %7d",j,mproduct[j],sproduct[j]);
             }
             break;
         /*grand totals*/
