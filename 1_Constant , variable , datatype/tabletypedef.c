@@ -12,8 +12,8 @@ int main()
     while (a<=max)
     {
         c=a*b;
-        a=a+1;
         printf("%d x %d = %d\n",a,b,c);
+        a=a+1;
     }
     return 0;
 }
